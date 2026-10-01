@@ -2,14 +2,14 @@
 
 ## How do I install these formulae?
 
-`brew install andry/homebrew-apps/<formula>`
+`brew install andryblack/homebrew-apps/<formula>`
 
-Or `brew tap andry/homebrew-apps` and then `brew install <formula>`.
+Or `brew tap andryblack/homebrew-apps` and then `brew install <formula>`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
-tap "andry/homebrew-apps"
+tap "andryblack/homebrew-apps"
 brew "<formula>"
 ```
 
