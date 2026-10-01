@@ -1,9 +1,13 @@
 class Qymcad < Formula
   desc "Parametric 3D CAD with a real B-rep kernel (OpenCASCADE)"
   homepage "https://github.com/QymIs-Tech/QymCAD"
-  url "https://github.com/QymIs-Tech/QymCAD.git", branch: "main", revision: "d2949f0a7283d96212326c67452cd8759b80c03b"
+  url "https://github.com/QymIs-Tech/QymCAD.git", tag: "v0.1.0-dev.20261001"
   version "0.1.0-dev.20261001"
   license "AGPL-3.0"
+
+  head do
+    url "https://github.com/QymIs-Tech/QymCAD.git", branch: "main"
+  end
 
   # The kernel is a C++ FFI bridge compiled by `cc` against OCCT headers, and the
   # resulting binary links the OCCT dylibs at runtime - so opencascade is needed
